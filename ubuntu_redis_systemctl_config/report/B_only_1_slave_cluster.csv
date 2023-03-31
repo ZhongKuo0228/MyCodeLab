@@ -1,0 +1,28 @@
+WARNING: master node 127.0.0.1:36380 has no slots, skipping...
+WARNING: master node 127.0.0.1:36381 has no slots, skipping...
+Cluster has 3 master nodes:
+
+Master 0: f4dab4d14c73266935fdd4b231f4b057405d6b15 127.0.0.1:36382
+Master 1: c9613dce59be4702853b2cba7b5083b004ba9236 127.0.0.1:36383
+Master 2: bd0f5318cad792349605f981cd967402d3229358 127.0.0.1:36379
+
+"PING_INLINE","33829.50"
+"PING_BULK","32467.53"
+"SET","33090.67"
+"GET","31908.10"
+"INCR","27593.82"
+"LPUSH","32362.46"
+"RPUSH","27855.15"
+"LPOP","32425.42"
+"RPOP","32071.84"
+"SADD","32071.84"
+"HSET","32637.08"
+"SPOP","32509.75"
+"ZADD","32133.68"
+"ZPOPMIN","32488.63"
+"LPUSH (needed to benchmark LRANGE)","27824.15"
+"LRANGE_100 (first 100 elements)","21739.13"
+"LRANGE_300 (first 300 elements)","11679.51"
+"LRANGE_500 (first 450 elements)","9005.76"
+"LRANGE_600 (first 600 elements)","7060.15"
+"MSET (10 keys)","21929.82"

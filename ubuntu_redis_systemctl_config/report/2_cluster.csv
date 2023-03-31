@@ -1,0 +1,26 @@
+Cluster has 3 master nodes:
+
+Master 0: 25322df3f5bca0bcf8a4664dc4d754c18c948fa0 127.0.0.1:36381
+Master 1: 872a4a64d5b04b939510e0cc23b817158b24df6e 127.0.0.1:36380
+Master 2: dd60e1c9d58a31f42e1ed9fb3c91d70a108245b1 127.0.0.1:36379
+
+"PING_INLINE","27624.31"
+"PING_BULK","30060.12"
+"SET","17441.86"
+"GET","27322.40"
+"INCR","23734.18"
+"LPUSH","18203.88"
+"RPUSH","22658.61"
+"LPOP","23696.68"
+"RPOP","23183.93"
+"SADD","27522.94"
+"HSET","18450.18"
+"SPOP","29239.77"
+"ZADD","27726.43"
+"ZPOPMIN","27322.40"
+"LPUSH (needed to benchmark LRANGE)","18404.91"
+"LRANGE_100 (first 100 elements)","18495.69"
+"LRANGE_300 (first 300 elements)","11111.11"
+"LRANGE_500 (first 450 elements)","8746.36"
+"LRANGE_600 (first 600 elements)","7146.26"
+"MSET (10 keys)","19011.41"

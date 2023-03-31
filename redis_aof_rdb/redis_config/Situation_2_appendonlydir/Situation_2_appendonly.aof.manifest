@@ -1,0 +1,2 @@
+file Situation_2_appendonly.aof.1.base.aof seq 1 type b
+file Situation_2_appendonly.aof.1.incr.aof seq 1 type i
